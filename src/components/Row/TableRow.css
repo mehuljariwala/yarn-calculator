@@ -1,0 +1,102 @@
+.color-cell {
+  color: #673ab7;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 5px 8px !important;
+  text-align: left !important;
+  border: 1px solid #eee;
+}
+
+.qty-cell {
+  text-align: center !important;
+  width: 30px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+  border: 1px solid #eee;
+}
+
+.action-cell {
+  padding: 3px !important;
+  width: 70px;
+  border: 1px solid #eee;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qty-input {
+  width: 22px;
+  height: 22px;
+  margin: 0 1px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 12px;
+  -moz-appearance: textfield; /* Firefox */
+  padding: 0;
+}
+
+/* Hide the spinner buttons */
+.qty-input::-webkit-inner-spin-button,
+.qty-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.action-btn {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 0;
+  margin: 0 1px;
+  transition: all 0.15s;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+}
+
+.minus-btn {
+  background-color: #ffeeee;
+  color: #f44336;
+  border: 1px solid #ffcccc;
+}
+
+.plus-btn {
+  background-color: #eeffee;
+  color: #4caf50;
+  border: 1px solid #ccffcc;
+}
+
+.action-btn:hover {
+  background-color: #f8f8f8;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.action-btn:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 400px) {
+  .color-cell {
+    font-size: 11px;
+    padding: 3px 4px !important;
+  }
+
+  .action-btn {
+    width: 24px;
+    height: 24px;
+  }
+
+  .action-btn i {
+    font-size: 10px;
+  }
+}
