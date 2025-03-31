@@ -31,15 +31,15 @@ const App = () => {
     "JARI DORI",
     "ચપટી દોરી",
     "ગાભા દોરી",
-    "LINE",
     "12 તાર દોરી",
+    "LINE",
     "3 તાર બુલેટ",
     "5 તાર બુલેટ",
     "POLYESTER",
     "કલરજરી દોરી",
     "150/6 ગોપદોરી",
     "150/12 ગોપદોરી",
-    "150/2 ગોપદોરી",
+    "150/2 Yarn",
   ];
 
   // Right side mappings for each left option
@@ -512,7 +512,7 @@ const App = () => {
       "MUSTERD",
       "LEMON",
     ],
-    "150/2": [
+    "150/2 Yarn": [
       "RED",
       "RANI",
       "R.BLUE",
