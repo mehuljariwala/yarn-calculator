@@ -39,15 +39,19 @@ const Choice = ({ options, onChange, title, showBack, onBack }) => {
       </div>
 
       <div className="choice-grid">
-        {filteredOptions.map((option, index) => (
-          <div
-            key={index}
-            className="choice-item"
-            onClick={() => onChange(option)}
-          >
-            {option}
-          </div>
-        ))}
+        {filteredOptions.map((option, index) =>
+          option === "LINE" ? (
+            <div key={index} className="choice-separator" />
+          ) : (
+            <div
+              key={index}
+              className="choice-item"
+              onClick={() => onChange(option)}
+            >
+              {option}
+            </div>
+          )
+        )}
         {filteredOptions.length === 0 && (
           <div className="no-results">No results found</div>
         )}
