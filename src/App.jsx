@@ -11,6 +11,7 @@ const App = () => {
   const [yarnItems, setYarnItems] = useState([]);
   const [selectedColors, setSelectedColors] = useState([]);
   const [showRightChoices, setShowRightChoices] = useState(false);
+  const [customTarInput, setCustomTarInput] = useState("");
 
   // Left side options
   const leftOptions = [
@@ -40,6 +41,7 @@ const App = () => {
     "150/6 ગોપદોરી",
     "150/12 ગોપદોરી",
     "150/2 Yarn",
+    "LINE",
   ];
 
   // Right side mappings for each left option
@@ -556,10 +558,63 @@ const App = () => {
     ],
   };
 
+  // Color list for custom tars
+  const customTarColors = [
+    "RED",
+    "RANI",
+    "R.BLUE",
+    "BLACK",
+    "MAROON",
+    "MULTI",
+    "ORANGE",
+    "N.BLUE",
+    "YELLOW",
+    "RAMA",
+    "C.GREEN",
+    "B.PINK",
+    "FIROZI",
+    "JURMAN",
+    "L-CHIKU",
+    "D-CHIKU",
+    "MEHENDI",
+    "GRAY",
+    "L.MULTI",
+    "CREAM",
+    "COFFEE",
+    "WHITE",
+    "PEACH",
+    "PISTA",
+    "B.GREEN",
+    "WINE",
+    "GAJRI",
+    "MAJANTA",
+    "KANDA",
+    "LAVANDER",
+    "SKY",
+    "POPTI",
+    "JAMBLI",
+    "RANI MULTI",
+    "RUST",
+    "MUSTERD",
+    "LEMON",
+    "SILVER",
+    "L-COPPER",
+    "D-COPPER",
+  ];
+
   // Initialize yarn items for tracking quantities
   useEffect(() => {
     if (selectedLeftItem) {
-      const rightOptions = rightMappings[selectedLeftItem] || [];
+      let rightOptions;
+
+      // Check if it's in the mappings, otherwise it's a custom tar
+      if (rightMappings[selectedLeftItem]) {
+        rightOptions = rightMappings[selectedLeftItem];
+      } else {
+        // For custom tars, use the custom tar colors
+        rightOptions = customTarColors;
+      }
+
       const initialYarnItems = [];
 
       // Group items in pairs (2 per row)
@@ -635,6 +690,17 @@ const App = () => {
     setSelectedRightItem("");
   };
 
+  const handleCustomTarSubmit = () => {
+    if (customTarInput.trim() === "") return;
+
+    // Just select the custom tar immediately without adding to list
+    setSelectedLeftItem(customTarInput);
+    setShowRightChoices(false);
+
+    // Clear the input field
+    setCustomTarInput("");
+  };
+
   const onSendOrder = () => {
     let whatsappMessage = "";
     whatsappMessage += `${selectedLeftItem}${
@@ -689,11 +755,42 @@ const App = () => {
     if (!selectedLeftItem) {
       // First screen: show left choices
       return (
-        <Choice
-          options={leftOptions}
-          onChange={onLeftItemSelect}
-          title="SELECT TAR"
-        />
+        <div>
+          <Choice
+            options={leftOptions}
+            onChange={onLeftItemSelect}
+            title="SELECT TAR"
+          />
+          <div className="custom-tar-container">
+            <h3 className="custom-tar-heading">Add your TAR</h3>
+            <div className="input-row">
+              <div className="input-icon-wrapper">
+                <span className="input-icon">+</span>
+                <input
+                  type="text"
+                  value={customTarInput}
+                  onChange={(e) => setCustomTarInput(e.target.value)}
+                  placeholder="Type your custom TAR name here..."
+                  className="custom-tar-text-input"
+                  onKeyPress={(e) => {
+                    if (e.key === "Enter" && customTarInput.trim() !== "") {
+                      handleCustomTarSubmit();
+                    }
+                  }}
+                />
+              </div>
+            </div>
+            <div className="button-row">
+              <button
+                onClick={handleCustomTarSubmit}
+                className="custom-tar-submit-btn"
+                disabled={customTarInput.trim() === ""}
+              >
+                <span className="btn-text">Select</span>
+              </button>
+            </div>
+          </div>
+        </div>
       );
     } else {
       // Final screen: yarn selection (now directly after selecting left item)
