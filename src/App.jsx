@@ -47,6 +47,10 @@ const App = () => {
   // Right side mappings for each left option
   const rightMappings = {
     કસબ: [
+      "Colour Set",
+      "Pastel Set",
+      "Shade Set",
+      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -60,6 +64,10 @@ const App = () => {
       "ફલોરા",
     ],
     "14 TR (S)": [
+      "Colour Set",
+      "Pastel Set",
+      "Shade Set",
+      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -73,6 +81,10 @@ const App = () => {
       "ફલોરા",
     ],
     "14 TR (Z)": [
+      "Colour Set",
+      "Pastel Set",
+      "Shade Set",
+      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -86,6 +98,10 @@ const App = () => {
       "ફલોરા",
     ],
     "12 TR (S)": [
+      "Colour Set",
+      "Pastel Set",
+      "Shade Set",
+      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -99,6 +115,10 @@ const App = () => {
       "ફલોરા",
     ],
     "12 TR (Z)": [
+      "Colour Set",
+      "Pastel Set",
+      "Shade Set",
+      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -112,6 +132,10 @@ const App = () => {
       "ફલોરા",
     ],
     "5 TR વલ": [
+      "Colour Set",
+      "Pastel Set",
+      "Shade Set",
+      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -125,6 +149,10 @@ const App = () => {
       "ફલોરા",
     ],
     "18 TR (S)": [
+      "Colour Set",
+      "Pastel Set",
+      "Shade Set",
+      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -138,6 +166,10 @@ const App = () => {
       "ફલોરા",
     ],
     "18 TR (Z)": [
+      "Colour Set",
+      "Pastel Set",
+      "Shade Set",
+      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -151,6 +183,10 @@ const App = () => {
       "ફલોરા",
     ],
     "4X4X4": [
+      "Colour Set",
+      "Pastel Set",
+      "Shade Set",
+      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -164,6 +200,10 @@ const App = () => {
       "ફલોરા",
     ],
     "5X5X5": [
+      "Colour Set",
+      "Pastel Set",
+      "Shade Set",
+      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -177,6 +217,10 @@ const App = () => {
       "ફલોરા",
     ],
     "સ્પોંગ બટન": [
+      "Colour Set",
+      "Pastel Set",
+      "Shade Set",
+      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -190,6 +234,10 @@ const App = () => {
       "ફલોરા",
     ],
     "2 MM-1200 MTR": [
+      "Colour Set",
+      "Pastel Set",
+      "Shade Set",
+      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -203,6 +251,10 @@ const App = () => {
       "ફલોરા",
     ],
     "4 MM-800 MTR": [
+      "Colour Set",
+      "Pastel Set",
+      "Shade Set",
+      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -216,6 +268,10 @@ const App = () => {
       "ફલોરા",
     ],
     "KATORI CD": [
+      "Colour Set",
+      "Pastel Set",
+      "Shade Set",
+      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -229,6 +285,10 @@ const App = () => {
       "ફલોરા",
     ],
     "JARI DORI": [
+      "Colour Set",
+      "Pastel Set",
+      "Shade Set",
+      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -242,6 +302,10 @@ const App = () => {
       "ફલોરા",
     ],
     "ચપટી દોરી": [
+      "Colour Set",
+      "Pastel Set",
+      "Shade Set",
+      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -255,6 +319,10 @@ const App = () => {
       "ફલોરા",
     ],
     "ગાભા દોરી": [
+      "Colour Set",
+      "Pastel Set",
+      "Shade Set",
+      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -268,6 +336,10 @@ const App = () => {
       "ફલોરા",
     ],
     "12 તાર દોરી": [
+      "Colour Set",
+      "Pastel Set",
+      "Shade Set",
+      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -281,6 +353,10 @@ const App = () => {
       "ફલોરા",
     ],
     "3 તાર બુલેટ": [
+      "Colour Set",
+      "Pastel Set",
+      "Shade Set",
+      "LINE",
       "RED",
       "GREEN",
       "RANI",
@@ -320,6 +396,10 @@ const App = () => {
       "LEMON",
     ],
     "5 તાર બુલેટ": [
+      "Colour Set",
+      "Pastel Set",
+      "Shade Set",
+      "LINE",
       "RED",
       "GREEN",
       "RANI",
@@ -359,6 +439,10 @@ const App = () => {
       "LEMON",
     ],
     POLYESTER: [
+      "Colour Set",
+      "Pastel Set",
+      "Shade Set",
+      "LINE",
       "RED",
       "GREEN",
       "RANI",
@@ -398,6 +482,10 @@ const App = () => {
       "LEMON",
     ],
     "કલરજરી દોરી": [
+      "Colour Set",
+      "Pastel Set",
+      "Shade Set",
+      "LINE",
       "RED",
       "GREEN",
       "RANI",
@@ -437,6 +525,10 @@ const App = () => {
       "LEMON",
     ],
     "150/6 ગોપદોરી": [
+      "Colour Set",
+      "Pastel Set",
+      "Shade Set",
+      "LINE",
       "RED",
       "GREEN",
       "RANI",
@@ -476,6 +568,10 @@ const App = () => {
       "LEMON",
     ],
     "150/12 ગોપદોરી": [
+      "Colour Set",
+      "Pastel Set",
+      "Shade Set",
+      "LINE",
       "RED",
       "GREEN",
       "RANI",
@@ -515,6 +611,10 @@ const App = () => {
       "LEMON",
     ],
     "150/2 Yarn": [
+      "Colour Set",
+      "Pastel Set",
+      "Shade Set",
+      "LINE",
       "RED",
       "RANI",
       "R.BLUE",
@@ -616,9 +716,47 @@ const App = () => {
       }
 
       const initialYarnItems = [];
+      let skipNext = false;
 
       // Group items in pairs (2 per row)
       for (let i = 0; i < rightOptions.length; i += 2) {
+        // Check if current item is "LINE"
+        if (rightOptions[i] === "LINE") {
+          // Add a special separator row
+          initialYarnItems.push({
+            isLine: true,
+          });
+          continue;
+        }
+
+        // Skip if this is the second item after a LINE that would make a pair
+        if (skipNext) {
+          skipNext = false;
+          i -= 1; // Adjust index to process this item as a "left" item
+          continue;
+        }
+
+        // If the next item is "LINE", handle it separately
+        if (i + 1 < rightOptions.length && rightOptions[i + 1] === "LINE") {
+          initialYarnItems.push({
+            left: {
+              uid: i + 1,
+              yarn_color: rightOptions[i],
+              yarn_qty: 0,
+            },
+            right: null,
+          });
+
+          // Add the LINE separator in the next iteration
+          initialYarnItems.push({
+            isLine: true,
+          });
+
+          // Skip the "LINE" item in the next iteration
+          skipNext = true;
+          continue;
+        }
+
         const leftItem = {
           uid: i + 1,
           yarn_color: rightOptions[i],
@@ -722,8 +860,13 @@ const App = () => {
       0
     )}%0A`;
     whatsappMessage += "--------------";
+
+    // Check if this is a custom tar input (not in the predefined leftOptions array)
+    const isCustomTar = !leftOptions.includes(selectedLeftItem);
+    const phoneNumber = isCustomTar ? "+919537758040" : "+917802911611";
+
     window.open(
-      `https://api.whatsapp.com/send?text=${whatsappMessage}&phone=+917802911611`,
+      `https://api.whatsapp.com/send?text=${whatsappMessage}&phone=${phoneNumber}`,
       "_blank"
     );
   };
@@ -738,7 +881,12 @@ const App = () => {
   };
 
   const redirectToWhatsapp = () => {
-    window.open(`https://api.whatsapp.com/send?phone=+917802911611`, "_blank");
+    // Check if this is a custom tar input (not in the predefined leftOptions array)
+    const isCustomTar =
+      selectedLeftItem && !leftOptions.includes(selectedLeftItem);
+    const phoneNumber = isCustomTar ? "+919537758040" : "+917802911611";
+
+    window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}`, "_blank");
   };
 
   // Calculate total counts
@@ -747,8 +895,6 @@ const App = () => {
     (total, color) => total + color.yarn_qty,
     0
   );
-
-  console.log("yarnItems", leftOptions);
 
   // Render selection screens or yarn selection
   const renderContent = () => {

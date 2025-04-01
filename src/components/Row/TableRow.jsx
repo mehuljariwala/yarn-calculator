@@ -5,6 +5,17 @@ export function TableRow(props) {
   const { data, index, onAddYarn, onRemoveYarn } = props;
   const [intervalId, setIntervalId] = useState(null);
 
+  // Check if this is a line separator row
+  if (data.isLine) {
+    return (
+      <tr key={index} className="line-separator-row">
+        <td colSpan="4" className="line-separator">
+          <hr />
+        </td>
+      </tr>
+    );
+  }
+
   const handleIncrementMouseDown = (index, pos) => {
     const id = setInterval(() => {
       onAddYarn(index, pos);

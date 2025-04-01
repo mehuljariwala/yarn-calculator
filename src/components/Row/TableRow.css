@@ -100,3 +100,20 @@
     font-size: 10px;
   }
 }
+
+/* Line separator styles */
+.line-separator-row {
+  height: 10px;
+}
+
+.line-separator {
+  padding: 0 !important;
+}
+
+.line-separator hr {
+  border: none;
+  height: 1px;
+  background-color: #673ab7;
+  opacity: 0.3;
+  margin: 5px 0;
+}
