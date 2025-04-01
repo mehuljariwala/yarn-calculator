@@ -91,6 +91,7 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   outline: none;
   background-color: white;
+  color: black;
 }
 
 .custom-tar-text-input:focus {

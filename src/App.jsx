@@ -47,10 +47,6 @@ const App = () => {
   // Right side mappings for each left option
   const rightMappings = {
     કસબ: [
-      "Colour Set",
-      "Pastel Set",
-      "Shade Set",
-      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -64,10 +60,6 @@ const App = () => {
       "ફલોરા",
     ],
     "14 TR (S)": [
-      "Colour Set",
-      "Pastel Set",
-      "Shade Set",
-      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -81,10 +73,6 @@ const App = () => {
       "ફલોરા",
     ],
     "14 TR (Z)": [
-      "Colour Set",
-      "Pastel Set",
-      "Shade Set",
-      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -98,10 +86,6 @@ const App = () => {
       "ફલોરા",
     ],
     "12 TR (S)": [
-      "Colour Set",
-      "Pastel Set",
-      "Shade Set",
-      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -115,10 +99,6 @@ const App = () => {
       "ફલોરા",
     ],
     "12 TR (Z)": [
-      "Colour Set",
-      "Pastel Set",
-      "Shade Set",
-      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -132,10 +112,6 @@ const App = () => {
       "ફલોરા",
     ],
     "5 TR વલ": [
-      "Colour Set",
-      "Pastel Set",
-      "Shade Set",
-      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -149,10 +125,6 @@ const App = () => {
       "ફલોરા",
     ],
     "18 TR (S)": [
-      "Colour Set",
-      "Pastel Set",
-      "Shade Set",
-      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -166,10 +138,6 @@ const App = () => {
       "ફલોરા",
     ],
     "18 TR (Z)": [
-      "Colour Set",
-      "Pastel Set",
-      "Shade Set",
-      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -183,10 +151,6 @@ const App = () => {
       "ફલોરા",
     ],
     "4X4X4": [
-      "Colour Set",
-      "Pastel Set",
-      "Shade Set",
-      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -200,10 +164,6 @@ const App = () => {
       "ફલોરા",
     ],
     "5X5X5": [
-      "Colour Set",
-      "Pastel Set",
-      "Shade Set",
-      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -217,10 +177,6 @@ const App = () => {
       "ફલોરા",
     ],
     "સ્પોંગ બટન": [
-      "Colour Set",
-      "Pastel Set",
-      "Shade Set",
-      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -234,10 +190,6 @@ const App = () => {
       "ફલોરા",
     ],
     "2 MM-1200 MTR": [
-      "Colour Set",
-      "Pastel Set",
-      "Shade Set",
-      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -251,10 +203,6 @@ const App = () => {
       "ફલોરા",
     ],
     "4 MM-800 MTR": [
-      "Colour Set",
-      "Pastel Set",
-      "Shade Set",
-      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -268,10 +216,6 @@ const App = () => {
       "ફલોરા",
     ],
     "KATORI CD": [
-      "Colour Set",
-      "Pastel Set",
-      "Shade Set",
-      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -285,10 +229,6 @@ const App = () => {
       "ફલોરા",
     ],
     "JARI DORI": [
-      "Colour Set",
-      "Pastel Set",
-      "Shade Set",
-      "LINE",
       "એન્ટીક",
       "સિલ્વર",
       "અનમોલ",
@@ -439,10 +379,6 @@ const App = () => {
       "LEMON",
     ],
     POLYESTER: [
-      "Colour Set",
-      "Pastel Set",
-      "Shade Set",
-      "LINE",
       "RED",
       "GREEN",
       "RANI",
@@ -482,10 +418,6 @@ const App = () => {
       "LEMON",
     ],
     "કલરજરી દોરી": [
-      "Colour Set",
-      "Pastel Set",
-      "Shade Set",
-      "LINE",
       "RED",
       "GREEN",
       "RANI",
@@ -525,10 +457,6 @@ const App = () => {
       "LEMON",
     ],
     "150/6 ગોપદોરી": [
-      "Colour Set",
-      "Pastel Set",
-      "Shade Set",
-      "LINE",
       "RED",
       "GREEN",
       "RANI",
@@ -568,10 +496,6 @@ const App = () => {
       "LEMON",
     ],
     "150/12 ગોપદોરી": [
-      "Colour Set",
-      "Pastel Set",
-      "Shade Set",
-      "LINE",
       "RED",
       "GREEN",
       "RANI",
@@ -611,10 +535,6 @@ const App = () => {
       "LEMON",
     ],
     "150/2 Yarn": [
-      "Colour Set",
-      "Pastel Set",
-      "Shade Set",
-      "LINE",
       "RED",
       "RANI",
       "R.BLUE",
@@ -660,6 +580,10 @@ const App = () => {
 
   // Color list for custom tars
   const customTarColors = [
+    "Colour Set",
+    "Pastel Set",
+    "Shade Set",
+    "LINE",
     "RED",
     "RANI",
     "R.BLUE",
@@ -844,7 +768,17 @@ const App = () => {
     whatsappMessage += `${selectedLeftItem}${
       selectedRightItem ? ` - ${selectedRightItem}` : ""
     }%0A%0A`;
-    selectedColors
+
+    // Check if this is a custom tar input (not in the predefined leftOptions array)
+    const isCustomTar = !leftOptions.includes(selectedLeftItem);
+
+    // For custom tars, only include colors with qty > 0
+    // For regular tars, include all selected colors
+    const colorsToInclude = isCustomTar
+      ? selectedColors.filter((color) => color.yarn_qty > 0)
+      : selectedColors;
+
+    colorsToInclude
       .sort((a, b) => (a.uid > b.uid ? 1 : b.uid > a.uid ? -1 : 0))
       .forEach((color) => {
         whatsappMessage += `${color.yarn_color.padEnd(
@@ -854,15 +788,12 @@ const App = () => {
         whatsappMessage += "%0A";
       });
     whatsappMessage += "--------------%0A";
-    whatsappMessage += `Colors: ${selectedColors.length}%0A`;
-    whatsappMessage += `Quantity: ${selectedColors.reduce(
+    whatsappMessage += `Colors: ${colorsToInclude.length}%0A`;
+    whatsappMessage += `Quantity: ${colorsToInclude.reduce(
       (total, color) => total + color.yarn_qty,
       0
     )}%0A`;
     whatsappMessage += "--------------";
-
-    // Check if this is a custom tar input (not in the predefined leftOptions array)
-    const isCustomTar = !leftOptions.includes(selectedLeftItem);
     const phoneNumber = isCustomTar ? "+919537758040" : "+917802911611";
 
     window.open(
